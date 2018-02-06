@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4461528563,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create new account",
+        "description": "",
+        "id": "as-an-applicant-i-should-be-able-to-create-new-account.;create-new-account",
+        "after": [
+          {
+            "result": {
+              "duration": 132741,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenShot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1636531594,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go outreach website",
+            "match": {
+              "location": "LoginLogout_StepDef.iGoOutreachWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 590310742,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Create Account link",
+            "match": {
+              "location": "CreateAccount_StepDef.iClickOnCreateAccountLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1209006320,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter all required field",
+            "match": {
+              "location": "CreateAccount_StepDef.iEnterAllRequiredField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2128507893,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Create Account button",
+            "match": {
+              "location": "CreateAccount_StepDef.iClickOnCreateAccountButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1228545616,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get successful message \"Almost finished... now check your email. We\u0027ve emailed you a link, which you need to click to activate your account.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Almost finished... now check your email. We\u0027ve emailed you a link, which you need to click to activate your account.",
+                  "offset": 33
+                }
+              ],
+              "location": "CreateAccount_StepDef.iShouldGetSuccessfulMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102265,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should get verification email",
+            "match": {
+              "location": "CreateAccount_StepDef.iShouldGetVerificationEmail()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "As an applicant I should be able to create new account.",
+    "description": "",
+    "id": "as-an-applicant-i-should-be-able-to-create-new-account.",
+    "keyword": "Feature",
+    "uri": "features/CreateAccount.feature"
+  }
+]

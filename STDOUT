@@ -1,0 +1,10 @@
+Feature: As an applicant I should be able to create new account.
+
+  @wip
+  Scenario: Create new account                                                                                                                                  [90m# features/CreateAccount.feature:4[0m
+    [32mGiven [0m[32mI go outreach website[0m                                                                                                                                 [90m# LoginLogout_StepDef.iGoOutreachWebsite()[0m
+    [32mAnd [0m[32mI click on Create Account link[0m                                                                                                                          [90m# CreateAccount_StepDef.iClickOnCreateAccountLink()[0m
+    [32mAnd [0m[32mI enter all required field[0m                                                                                                                              [90m# CreateAccount_StepDef.iEnterAllRequiredField()[0m
+    [32mWhen [0m[32mI click on Create Account button[0m                                                                                                                       [90m# CreateAccount_StepDef.iClickOnCreateAccountButton()[0m
+    [32mThen [0m[32mI should get successful message "[0m[32m[1mAlmost finished... now check your email. We've emailed you a link, which you need to click to activate your account.[0m[32m"[0m [90m# CreateAccount_StepDef.iShouldGetSuccessfulMessage(String)[0m
+    [32mAnd [0m[32mI should get verification email[0m                                                                                                                         [90m# CreateAccount_StepDef.iShouldGetVerificationEmail()[0m

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Create new account
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.918 s - in Scenario: Create new account
